@@ -1,6 +1,6 @@
 ---
 title: First new Post
-layout: post
+layout: single
 ---
 
 This is a sample first new post.

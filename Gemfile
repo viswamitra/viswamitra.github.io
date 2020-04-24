@@ -7,9 +7,10 @@ source "https://rubygems.org"
 #
 # This will help ensure the proper Jekyll version is running.
 # Happy Jekylling!
-gem "jekyll", "~> 4.0.0"
+gem "jekyll", "~> 3.5"
 # This is the default theme for new Jekyll sites. You may change this to anything you like.
-gem 'jekyll-theme-hydeout', '~> 4.1'
+#gem 'jekyll-theme-hydeout', '~> 4.1'
+gem "minimal-mistakes-jekyll"
 # If you want to use GitHub Pages, remove the "gem "jekyll"" above and
 # uncomment the line below. To upgrade, run `bundle update github-pages`.
 # gem "github-pages", group: :jekyll_plugins
@@ -19,6 +20,8 @@ group :jekyll_plugins do
   gem "jekyll-admin"
 end
 
+gem "github-pages", group: :jekyll_plugins
+gem "jekyll-include-cache"
 # Windows and JRuby does not include zoneinfo files, so bundle the tzinfo-data gem
 # and associated library.
 install_if -> { RUBY_PLATFORM =~ %r!mingw|mswin|java! } do

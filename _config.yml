@@ -17,27 +17,64 @@
 # you will see them accessed via {{ site.title }}, {{ site.email }}, and so on.
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
+minimal_mistakes_skin: "air" # "air", "aqua", "contrast", "dark", "dirt", "neon", "mint", "plum" "sunrise"
 
-title: Abhiram
-email: abhiram.viswamitra@gmail.com
+title: Empty Thoughts
+subtitle: "mostly"
+
+
 description: >- # this means to ignore newlines until "baseurl:"
   Blog about learnings, reviews and general musings.
-baseurl: "" # the subpath of your site, e.g. /blog
-url: "" # the base hostname & protocol for your site, e.g. http://example.com
+#baseurl: "" # the subpath of your site, e.g. /blog
+url: "https://abhiramkaushik.in" # the base hostname & protocol for your site, e.g. http://example.com
 twitter_username: viswamitra_
 github_username:  viswamitra
 
 # Build settings
-theme: jekyll-theme-hydeout
-remote_theme: fongandrew/hydeout
+#theme: jekyll-theme-hydeout
+theme: minimal-mistakes-jekyll
+#remote_theme: mmistakes/minimal-mistakes
 paginate: 5
 plugins:
   - jekyll-feed
-hydeout:
-  repo: github-blah
+  - jekyll-include-cache
+repository: viswamitra/viswamitra.github.io
 
+# User Details
+name: Abhiram Kaushik
+email: abhiram.viswamitra@gmail.com
+author:
+  name     : "Abhiram Kaushik"
+  avatar   : "/assets/images/bio-photo.jpg"
+  bio      : "Trying to learn something new everyday"
+  links:
+    - label: "500px"
+      icon: "fab fa-fw fa-500px"
+      url: "https://mademistakes.com"
+    - label: "Twitter"
+      icon: "fab fa-fw fa-twitter-square"
+      url: "https://twitter.com/mmistakes"
+    - label: "GitHub"
+      icon: "fab fa-fw fa-github"
+      url: "https://github.com/mmistakes"
+    - label: "Linkedin"
+      icon: "fab fa-fw fa-linkedin"
+      url: "https://instagram.com/mmistakes"
 
+defaults:
+  # _posts
+  - scope:
+      path: ""
+      type: posts
+    values:
+      layout: single
+      author_profile: true
+      read_time: false
+      comments: true
+      share: false
+      related: false
 
+include: ["_pages"]
 # Exclude from processing.
 # The following items will not be processed, by default.
 # Any item listed under the `exclude:` key here will be automatically added to
