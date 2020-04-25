@@ -32,7 +32,7 @@ url: "https://abhiramkaushik.in" # the base hostname & protocol for your site, e
 # Build settings
 #theme: jekyll-theme-hydeout
 #theme: minimal-mistakes-jekyll
-remote_theme: mmistakes/minimal-mistakes
+remote_theme: mmistakes/minimal-mistakes@4.19.1
 paginate: 5
 plugins:
   - jekyll-feed
