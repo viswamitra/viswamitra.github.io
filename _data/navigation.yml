@@ -1,0 +1,7 @@
+main:
+  - title: "About Me"
+    url: /about/
+  - title: "Books I'm Reading"
+    url: /books/
+  - title: "Posts"
+    url: /year-archive/
