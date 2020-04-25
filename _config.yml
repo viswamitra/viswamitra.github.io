@@ -49,16 +49,16 @@ author:
   links:
     - label: "500px"
       icon: "fab fa-fw fa-500px"
-      url: "https://mademistakes.com"
+      url: "https://500px.com/abhiramviswamitra"
     - label: "Twitter"
       icon: "fab fa-fw fa-twitter-square"
-      url: "https://twitter.com/mmistakes"
+      url: "https://twitter.com/viswamitra_"
     - label: "GitHub"
       icon: "fab fa-fw fa-github"
-      url: "https://github.com/mmistakes"
+      url: "https://github.com/viswamitra"
     - label: "Linkedin"
       icon: "fab fa-fw fa-linkedin"
-      url: "https://instagram.com/mmistakes"
+      url: "https://www.linkedin.com/in/abhiram-kaushik/"
 
 defaults:
   # _posts

@@ -5,15 +5,8 @@ permalink: /about/
 sidebar_link: true
 ---
 
-This is the base Jekyll theme. You can find out more info about customizing your Jekyll theme, as well as basic Jekyll usage documentation at [jekyllrb.com](https://jekyllrb.com/)
-
-You can find the source code for Minima at GitHub:
-[jekyll][jekyll-organization] /
-[minima](https://github.com/jekyll/minima)
-
-You can find the source code for Jekyll at GitHub:
-[jekyll][jekyll-organization] /
-[jekyll](https://github.com/jekyll/jekyll)
-
-
-[jekyll-organization]: https://github.com/jekyll
+Every once in a couple of months, or years, I make yet another attempt to set up a blog. That lingers for a couple of months and then fissles out.
+This is yet another attempt in that category.
+<p> I am an Engineering Manager by profession. As I figure out what that exactly means, I'll put down a few words here about my experiences in that area.
+I might also write a few things about programming, tech culture, book and gadget reviews among the things that I dabble in.
+In this age of voracious data and media consumption, this is an effort to produce.
