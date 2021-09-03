@@ -17,7 +17,7 @@
 # you will see them accessed via {{ site.title }}, {{ site.email }}, and so on.
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
-minimal_mistakes_skin: "air" # "air", "aqua", "contrast", "dark", "dirt", "neon", "mint", "plum" "sunrise"
+minimal_mistakes_skin: "dark" # "air", "aqua", "contrast", "dark", "dirt", "neon", "mint", "plum" "sunrise"
 
 title: Empty Thoughts
 subtitle: "mostly"
@@ -31,8 +31,8 @@ url: "https://abhiramkaushik.in" # the base hostname & protocol for your site, e
 
 # Build settings
 #theme: jekyll-theme-hydeout
-#theme: minimal-mistakes-jekyll
-remote_theme: mmistakes/minimal-mistakes@4.19.1
+theme: minimal-mistakes-jekyll
+#remote_theme: mmistakes/minimal-mistakes@4.19.1
 paginate: 5
 plugins:
   - jekyll-feed

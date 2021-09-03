@@ -3,11 +3,15 @@ layout: single
 permalink: /books/
 sidebar_link: true
 gallery:
-  - url: https://www.goodreads.com/book/photo/54493401-project-hail-mary
-    image_path: https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1597695864l/54493401.jpg
+  - url: https://www.goodreads.com/book/show/53485326-the-last-wish
+    image_path: https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1590429945l/53485326.jpg
 
 
 gallery2:
+
+  # Project Hail Mary
+  - url: https://www.goodreads.com/book/photo/54493401-project-hail-mary
+    image_path: https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1597695864l/54493401.jpg
   # Death on the nile
   - url: https://www.goodreads.com/book/photo/131359.Death_on_the_Nile
     image_path: https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1486837149l/131359._SY475_.jpg
