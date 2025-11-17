@@ -332,7 +332,6 @@ PLATFORMS
 DEPENDENCIES
   bigdecimal
   github-pages
-  jekyll (~> 3.5)
   jekyll-admin
   jekyll-feed (~> 0.12)
   jekyll-include-cache
