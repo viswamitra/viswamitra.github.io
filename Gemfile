@@ -22,6 +22,7 @@ end
 
 gem "github-pages", group: :jekyll_plugins
 gem "jekyll-include-cache"
+gem "bigdecimal"
 #gem "minimal-mistakes-jekyll"
 # Windows and JRuby does not include zoneinfo files, so bundle the tzinfo-data gem
 # and associated library.
