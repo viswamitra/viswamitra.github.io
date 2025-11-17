@@ -1,0 +1,77 @@
+<style>
+.books-list {
+  list-style-type: none;
+  padding: 0;
+  margin: 20px 0;
+}
+
+.book-item {
+  display: flex;
+  align-items: center;
+  margin-bottom: 20px;
+  padding: 10px;
+  border-bottom: 1px solid #e0e0e0;
+}
+
+.book-item:hover {
+  background-color: #f9f9f9;
+}
+
+.book-cover {
+  width: 50px;
+  height: auto;
+  border-radius: 3px;
+  margin-right: 15px;
+  flex-shrink: 0;
+}
+
+.book-info {
+  flex-grow: 1;
+}
+
+.book-title {
+  font-weight: bold;
+  margin-bottom: 5px;
+  color: #2c3e50;
+}
+
+.book-date {
+  color: #7f8c8d;
+  font-size: 0.9em;
+}
+
+.year-header {
+  font-size: 1.5em;
+  font-weight: bold;
+  color: #3498db;
+  margin: 30px 0 15px 0;
+  padding-bottom: 5px;
+  border-bottom: 2px solid #3498db;
+}
+</style>
+
+{% assign books_by_year = site.data.books | group_by: "year" | sort: "name" | reverse %}
+
+{% for year_group in books_by_year %}
+  <h2 class="year-header">{{ year_group.name }}</h2>
+  <ul class="books-list">
+    {% assign books_sorted = year_group.items | sort: "month" | reverse %}
+    {% for book in books_sorted %}
+      <li class="book-item">
+        <a href="{{ book.url }}" target="_blank" rel="noopener noreferrer">
+          <img src="{{ book.image_path }}" alt="{{ book.title }}" class="book-cover">
+        </a>
+        <div class="book-info">
+          <div class="book-title">
+            <a href="{{ book.url }}" target="_blank" rel="noopener noreferrer" style="text-decoration: none; color: inherit;">{{ book.title }}</a>
+          </div>
+          <div class="book-date">
+            {% assign month_names = "January,February,March,April,May,June,July,August,September,October,November,December" | split: "," %}
+            {% assign month_index = book.month | minus: 1 %}
+            {{ month_names[month_index] }} {{ book.year }}
+          </div>
+        </div>
+      </li>
+    {% endfor %}
+  </ul>
+{% endfor %}
