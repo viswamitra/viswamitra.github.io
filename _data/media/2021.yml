@@ -4,6 +4,8 @@
   image_path: https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1590429945l/53485326.jpg
   year: 2021
   month: 7
+  day: 15
+  rating: 4
 
 - title: "Project Hail Mary"
   type: book
@@ -11,3 +13,5 @@
   image_path: https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1597695864l/54493401.jpg
   year: 2021
   month: 3
+  day: 8
+  rating: 5
