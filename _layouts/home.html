@@ -1,0 +1,72 @@
+---
+layout: archive
+---
+
+{{ content }}
+
+{% if paginator %}
+  {% assign posts = paginator.posts %}
+{% else %}
+  {% assign posts = site.posts | sort: 'date' | reverse %}
+{% endif %}
+
+{% assign entries_layout = page.entries_layout | default: 'list' %}
+<div class="entries-{{ entries_layout }}">
+  {% for post in posts %}
+    <article class="archive__item">
+      <h2 class="archive__item-title no_toc" itemprop="headline">
+        <span class="archive__item-date">{{ post.date | date: "%B %d, %Y" }}</span>
+        <a href="{{ post.url | relative_url }}" rel="permalink">{{ post.title }}</a>
+      </h2>
+    </article>
+  {% endfor %}
+</div>
+
+{% include paginator.html %}
+
+<style>
+  .entries-list {
+    max-width: 800px;
+    margin: 0 auto;
+  }
+
+  .archive__item {
+    margin-bottom: 0.5em;
+  }
+
+  .archive__item-title {
+    margin: 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 1.125rem;
+    line-height: 1.5;
+    font-weight: normal;
+  }
+
+  .archive__item-title a {
+    text-decoration: none;
+    flex: 1;
+    color: #000000;
+  }
+
+  .archive__item-title a:visited {
+    color: #000000;
+  }
+
+  .archive__item-title a:hover {
+    text-decoration: underline;
+    color: #000000;
+  }
+
+  .archive__item-date {
+    color: #666666;
+    font-size: 0.875rem;
+    font-weight: 400;
+    white-space: nowrap;
+    width: 200px;
+    text-align: right;
+    margin-right: 1.5em;
+    flex-shrink: 0;
+  }
+</style>

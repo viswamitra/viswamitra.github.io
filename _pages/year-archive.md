@@ -2,5 +2,6 @@
 title: "Posts by Year"
 permalink: /year-archive/
 layout: posts
-author_profile: true
+author_profile: false
+classes: wide
 ---

@@ -2,7 +2,7 @@
 layout: single
 permalink: /books/
 sidebar_link: true
-title: "My Reading Journey"
+title: ""
 ---
 
 {% include books-timeline.html %}

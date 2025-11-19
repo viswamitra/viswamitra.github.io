@@ -2,7 +2,7 @@
 layout: single
 title: About Me
 permalink: /about/
-sidebar_link: true
+author_profile: true
 ---
 
 Every once in a couple of months, or years, I make yet another attempt to set up a blog. That lingers for a couple of months and then fissles out.
