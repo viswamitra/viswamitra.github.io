@@ -1,8 +1,8 @@
 main:
   - title: "About"
     url: /about/
-  - title: "Books"
-    url: /books/
+  - title: "Library"
+    url: /library/
   - title: "Archive"
     url: /year-archive/
   
