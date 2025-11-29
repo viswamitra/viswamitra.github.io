@@ -1,3 +1,11 @@
+- title: "Telusu Kada"
+  type: Movie
+  url: https://www.imdb.com/title/tt27881494/
+  image_path: https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTR8Io19YZzNAxdoE35eU8HJSKP9WWUWReN_hH3TJSK6SnGhxA0LWQatm6WrMI5N48pv8ImE8pOyAajU341JLySWyIJjlfw0bCU1dQXauRr&s=10
+  year: 2025
+  month: 11
+  rating: 2
+  
 - title: "Schitt's creek : S1"
   type: series
   url: https://www.imdb.com/title/tt3526078/
@@ -5,7 +13,6 @@
   year: 2025
   month: 11
   rating: 4
-
 
 - title: "Jurassic World : Rebirth"
   type: movie
